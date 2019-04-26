@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/classfiy/main",
+    "pages/index/main",
+    "pages/shapCar/main",
+    "pages/mine/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "#fe9900",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/classfiy/main",
+      "iconPath": "static/images/bottomtab/sy.png",
+      "selectedIconPath": "static/images/bottomtab/syA.png"
+    }, {
+      "text": "分类",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/bottomtab/fl.png",
+      "selectedIconPath": "static/images/bottomtab/flA.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/shapCar/main",
+      "iconPath": "static/images/bottomtab/gwc.png",
+      "selectedIconPath": "static/images/bottomtab/gwcA.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/images/bottomtab/wd.png",
+      "selectedIconPath": "static/images/bottomtab/wdA.png"
+    }],
+    "position": "bottom"
+  }
+}
