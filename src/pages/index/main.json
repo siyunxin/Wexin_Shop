@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "商城首页",
+    "navigationBarTextStyle": "black",
+    "usingComponents": {
+        "i-icon": "../../static/iview/icon/index"
+      }
+}
+
+  

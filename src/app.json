@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/classfiy/main",
     "pages/index/main",
-    "pages/shapCar/main",
+    "pages/classfiy/main",
+    "pages/shoppingcart/main",
     "pages/mine/main"
   ],
   "window": {
@@ -19,17 +19,17 @@
 
     "list": [{
       "text": "首页",
-      "pagePath": "pages/classfiy/main",
+      "pagePath": "pages/index/main",
       "iconPath": "static/images/bottomtab/sy.png",
       "selectedIconPath": "static/images/bottomtab/syA.png"
     }, {
       "text": "分类",
-      "pagePath": "pages/index/main",
+      "pagePath": "pages/classfiy/main",
       "iconPath": "static/images/bottomtab/fl.png",
       "selectedIconPath": "static/images/bottomtab/flA.png"
     }, {
       "text": "购物车",
-      "pagePath": "pages/shapCar/main",
+      "pagePath": "pages/shoppingcart/main",
       "iconPath": "static/images/bottomtab/gwc.png",
       "selectedIconPath": "static/images/bottomtab/gwcA.png"
     }, {

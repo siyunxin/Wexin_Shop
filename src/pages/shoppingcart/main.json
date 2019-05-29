@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "i-checkbox-group": "../../static/iview/checkbox-group/index",
+    "i-checkbox": "../../static/iview/checkbox/index"
+}
+}

@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style>
+  @import './style/iconfont/iconfont.css';
 .container {
   height: 100%;
   display: flex;
@@ -46,5 +47,10 @@ export default {
   -moz-transition: width 2s;
   -webkit-transition: width 2s;
   -o-transition: width 2s;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
 }
 </style>
